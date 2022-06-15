@@ -1,0 +1,23 @@
+{
+  "name": "social-network-api",
+  "version": "1.0.0",
+  "description": "Developing an API for a social network web application where users can share their thoughts, react to friends' thoughts, and create a friend list.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgarcia45/social-network-api.git"
+  },
+  "author": "Juan Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgarcia45/social-network-api/issues"
+  },
+  "homepage": "https://github.com/jgarcia45/social-network-api#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.3.8"
+  }
+}
