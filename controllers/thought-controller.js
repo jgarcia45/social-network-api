@@ -62,3 +62,5 @@ const thoughtController = {
     // POST to create a reaction
     // DELETE a reaction
 };
+
+module.exports = thoughtController;
