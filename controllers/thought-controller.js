@@ -1,6 +1,7 @@
 const { Thought, User } = require('../models');
 
 const thoughtController = {
+
     // GET all thoughts
     getAllThoughts(req, res) {
         Thought.find({})
