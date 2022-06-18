@@ -9,7 +9,7 @@ const ReactionSchema = new Schema(
             default: () => new Types.ObjectId()
         },
         reactionBody: {
-            Type: String,
+            type: String,
             required: true,
             maxlength: 280
         },
@@ -18,7 +18,7 @@ const ReactionSchema = new Schema(
             required: true
         },
         createdAt: {
-            Type: Date,
+            type: Date,
             default: Date.now,
             get: createdAtVal => dateFormat(createdAtVal)
         }
